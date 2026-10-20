@@ -1,0 +1,200 @@
+﻿
+<color=#00FFFF><b>[ExperimentManager]</b> 螳滄ｨ捺擅莉ｶ縺悟・繧頑崛繧上ｊ縺ｾ縺励◆: <b>[Condition 1] Method A ﾃ・Dynamic (繝ｪ繧｢繝ｫ繧ｿ繧､繝譖ｴ譁ｰ)</b></color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ExperimentManager:LogCurrentCondition () (at Assets/Scripts/ExperimentManager.cs:166)
+ExperimentManager:OnValidate () (at Assets/Scripts/ExperimentManager.cs:178)
+
+(Filename: Assets/Scripts/ExperimentManager.cs Line: 166)
+
+Found IOVRSkeletonDataProvider reference in [BuildingBlock] Hand Tracking right due to unassigned field.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRSkeleton:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs:520)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs Line: 520)
+
+Found IOVRSkeletonDataProvider reference in [BuildingBlock] Hand Tracking left due to unassigned field.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRSkeleton:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs:520)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs Line: 520)
+
+[OVRManager] OnApplicationPause(false)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationPause (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3465)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3465)
+
+[OVRManager] OnApplicationFocus(true)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3473)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3473)
+
+No Meta XR Audio Room found, setting default room
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MetaXRAudioRoomAcousticProperties:CheckSceneHasRoom () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:162)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs Line: 162)
+
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Meta XR Audio Native Interface initialized with Unity plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MetaXRAudioNativeInterface:FindInterface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs:107)
+MetaXRAudioNativeInterface:get_Interface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs:81)
+MetaXRAudioRoomAcousticProperties:Update () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:184)
+MetaXRAudioRoomAcousticProperties:CheckSceneHasRoom () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:165)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs Line: 107)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            25.981 ms
+	Integration:            477.540 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       -0.001 ms
+	Total Operation Time:   503.530 ms
+At GameObject <color=#3366ff><b>PlayerController</b></color>, component <b>FirstPersonLocomotor</b>. The ground could not be found below the locomotor for 10 meters. Velocity will be disabled.A) Add a ground collider under the character controller and/or adjust the CharacterController.LayerMask.
+B) Set _velocityDisabled to disable movement and prevent falling without showing this warning.
+C) Set _maxStartGroundDistance to 0 to disable this behaviour.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Oculus.Interaction.AssertUtils:LogWarning (UnityEngine.Component,string,string,string) (at ./Library/PackageCache/com.meta.xr.sdk.interaction@201.0.0/Runtime/Scripts/Utils/AssertUtils.cs:250)
+Oculus.Interaction.Locomotion.FirstPersonLocomotor:Start () (at ./Library/PackageCache/com.meta.xr.sdk.interaction@201.0.0/Runtime/Scripts/Interaction/Models/Locomotion/FirstPersonLocomotor.cs:444)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.interaction@201.0.0/Runtime/Scripts/Utils/AssertUtils.cs Line: 250)
+
+<color=#00FFFF><b>[ExperimentManager]</b> 螳滄ｨ捺擅莉ｶ縺悟・繧頑崛繧上ｊ縺ｾ縺励◆: <b>[Condition 1] Method A ﾃ・Dynamic (繝ｪ繧｢繝ｫ繧ｿ繧､繝譖ｴ譁ｰ)</b></color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ExperimentManager:LogCurrentCondition () (at Assets/Scripts/ExperimentManager.cs:166)
+ExperimentManager:Start () (at Assets/Scripts/ExperimentManager.cs:99)
+
+(Filename: Assets/Scripts/ExperimentManager.cs Line: 166)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:177)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:394)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3403)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs Line: 177)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:177)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:394)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3403)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs Line: 177)
+
+[OVRManager] OnApplicationFocus(false)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3477)
+UnityEditor.PlayModeView:SetFocus (bool)
+UnityEditor.GameView:OnLostFocus ()
+UnityEditor.HostView:OnLostFocus ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3477)
+
+[OVRManager] OnApplicationQuit
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationQuit () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3483)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3483)
+
+[OVRManager] OnDestroy
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnDestroy () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3450)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3450)
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            21.297 ms
+	Integration:            29.516 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       -0.000 ms
+	Total Operation Time:   50.822 ms
+Unloading 163 unused Assets / (4.1 MB). Loaded Objects now: 21558.
+Memory consumption went from 335.5 MB to 331.4 MB.
+Total: 13.963300 ms (FindLiveObjects: 1.148600 ms CreateObjectMapping: 0.406200 ms MarkObjects: 12.110900 ms  DeleteObjects: 0.296900 ms)
+
+Asset Pipeline Refresh (id=07c23ce79559f3c4c861b62f8f2b6876): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+<RI> Initialized touch support.
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "F4-EET8-G697-BKP7-NBUM-XXXX"
+[Licensing::Module] Serial number assigned to: "15669148836721-UnityPersXXXX"

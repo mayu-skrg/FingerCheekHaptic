@@ -1,0 +1,600 @@
+﻿UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.MetaXRFeature:HookGetInstanceProcAddr (intptr) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OpenXRFeatures/MetaXRFeature.cs:260)
+UnityEngine.XR.OpenXR.Features.OpenXRFeature:HookGetInstanceProcAddr () (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/Features/OpenXRFeature.cs:736)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:246)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:203)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRManagerSettings.cs:190)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRGeneralSettings.cs:175)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRGeneralSettings.cs:148)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OpenXRFeatures/MetaXRFeature.cs Line: 260)
+
+[OVRPlugin][INFO] UnityOpenXR_SetClientVersion(1, 201, 0) called
+[OVRPlugin][INFO] ovrp_UnityOpenXR_HookGetInstanceProcAddr(00007FFBA6655B6E)
+[OVRPlugin][INFO] [CompositorOpenXR::SetExternalXrGetInstanceProcAddr] xrGetInstanceProcAddr set to 00007FFBA6655B6E. All OpenXR API Entires unbound.
+[OVRPlugin][INFO] CompositorOpenXR::PreInitialize(activity = 0000000000000000, apiType = 0, preinitializeFlags=0x1)
+[OVRPlugin][INFO] Support Non-Oculus runtime: NO
+[OVRPlugin][INFO] Use Alpha Blend Factors: NO
+[OVRPlugin][INFO] RetryHMDConnection: YES
+[OVRPlugin][INFO]  -- Set xrGetInstanceProcAddr to external function pointer
+[OVRPlugin][INFO] Warning: xrGetInstanceProcAddr has already been set
+[OVRPlugin][INFO] Available Layers: (4)
+[OVRPlugin][INFO]   Name=XR_APILAYER_VIVE_hand_tracking SpecVersion=1.0.0 LayerVersion=2 Description=ViveVR OpenXR Hand Tracking
+[OVRPlugin][INFO]     Available Extensions: (3)
+[OVRPlugin][INFO]      Name=XR_EXT_hand_tracking SpecVersion=2
+[OVRPlugin][INFO]      Name=XR_HTC_hand_interaction SpecVersion=1
+[OVRPlugin][INFO]      Name=XR_EXT_hand_interaction SpecVersion=1
+[OVRPlugin][INFO]   Name=XR_APILAYER_VIVE_facial_tracking SpecVersion=1.0.0 LayerVersion=2 Description=VIVE OpenXR Facial tracking
+[OVRPlugin][INFO]     Available Extensions: (3)
+[OVRPlugin][INFO]      Name=XR_EXT_eye_gaze_interaction SpecVersion=1
+[OVRPlugin][INFO]      Name=XR_HTC_facial_tracking SpecVersion=1
+[OVRPlugin][INFO]      Name=XR_HTC_eye_tracker SpecVersion=1
+[OVRPlugin][INFO]   Name=XR_APILAYER_VIVE_srworks SpecVersion=1.0.0 LayerVersion=2 Description=ViveVR OpenXR SRWorks
+[OVRPlugin][INFO]     Available Extensions: (2)
+[OVRPlugin][INFO]      Name=XR_HTC_vive_srworks_pass_through SpecVersion=1
+[OVRPlugin][INFO]      Name=XR_MSFT_scene_understanding SpecVersion=1
+[OVRPlugin][INFO]   Name=XR_APILAYER_VIVE_xr_tracker SpecVersion=1.0.0 LayerVersion=2 Description=ViveVR OpenXR XrTracker
+[OVRPlugin][INFO]     Available Extensions: (3)
+[OVRPlugin][INFO]      Name=XR_HTC_path_enumeration SpecVersion=1
+[OVRPlugin][INFO]      Name=XR_HTC_vive_xr_tracker_interaction SpecVersion=1
+[OVRPlugin][INFO]      Name=XR_HTC_body_tracking SpecVersion=1
+[OVRPlugin][INFO] Preinitialize: xrCreateInstance() succeeded
+[OVRPlugin][INFO] OpenXR runtime name: Oculus, version 1.208.0
+[OVRPlugin][INFO] Preinitialize: xrGetSystem() succeeded. xrSystemId 24
+[OVRPlugin][INFO] Available Extensions: (53)
+[OVRPlugin][INFO] VkInstanceExtensions:
+[OVRPlugin][INFO]   VK_KHR_surface
+[OVRPlugin][INFO]   VK_KHR_external_memory_capabilities
+[OVRPlugin][INFO]   VK_KHR_win32_surface
+[OVRPlugin][INFO]   VK_KHR_external_fence_capabilities
+[OVRPlugin][INFO]   VK_KHR_external_semaphore_capabilities
+[OVRPlugin][INFO]   VK_KHR_get_physical_device_properties2
+[OVRPlugin][INFO] VkDeviceExtensions:
+[OVRPlugin][INFO]   VK_KHR_swapchain
+[OVRPlugin][INFO]   VK_KHR_external_memory
+[OVRPlugin][INFO]   VK_KHR_external_memory_win32
+[OVRPlugin][INFO]   VK_KHR_external_fence
+[OVRPlugin][INFO]   VK_KHR_external_fence_win32
+[OVRPlugin][INFO]   VK_KHR_external_semaphore
+[OVRPlugin][INFO]   VK_KHR_external_semaphore_win32
+[OVRPlugin][INFO]   VK_KHR_get_memory_requirements2
+[OVRPlugin][INFO]   VK_KHR_dedicated_allocation
+[OVRPlugin][INFO] Preinitialize: xrDestroyInstance() succeeded
+[OVRPlugin][INFO] OVRPlugin 1.201.0 ... preinitialized
+[OVRPlugin][INFO] Func_xrGetInstanceProcAddr: override xrCreateInstance
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [4288] [16:20:26.816][Info   ] Available Layers: (4)
+[OVRPlugin][INFO] Func_xrCreateInstance(00000232B11D6B70)
+[OVRPlugin][INFO] Unity Requested Extensions (31):
+[OVRPlugin][INFO] Available Extensions: (53)
+[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking SpecVersion=4
+[OVRPlugin][INFO]  Name=XR_EXT_hand_interaction SpecVersion=2
+[OVRPlugin][INFO]  Name=XR_KHR_D3D11_enable SpecVersion=11
+[OVRPlugin][INFO]  Name=XR_KHR_vulkan_enable SpecVersion=10
+[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_depth SpecVersion=6
+[OVRPlugin][INFO]  Name=XR_KHR_convert_timespec_time SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cube SpecVersion=8
+[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_cylinder SpecVersion=4
+[OVRPlugin][INFO]  Name=XR_KHR_visibility_mask SpecVersion=2
+[OVRPlugin][INFO]  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5
+[OVRPlugin][INFO]  Name=XR_EXT_debug_utils SpecVersion=5
+[OVRPlugin][INFO]  Name=XR_OCULUS_audio_device_guid SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_FB_color_space SpecVersion=3
+[OVRPlugin][INFO]  Name=XR_FB_display_refresh_rate SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_META_performance_metrics SpecVersion=2
+[OVRPlugin][INFO]  Name=XR_META_headset_id SpecVersion=2
+[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_mesh SpecVersion=3
+[OVRPlugin][INFO]  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_aim SpecVersion=2
+[OVRPlugin][INFO]  Name=XR_FB_hand_tracking_capsules SpecVersion=3
+[OVRPlugin][INFO]  Name=XR_EXT_hand_tracking_data_source SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_META_hand_tracking_microgestures SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_EXT_local_floor SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_EXT_future SpecVersion=2
+[OVRPlugin][INFO]  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_FB_haptic_pcm SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_FB_touch_controller_pro SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_META_touch_controller_plus SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_FB_touch_controller_proximity SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_META_detached_controllers SpecVersion=1
+[OVRPlugin][INFO]  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_D3D12_enable
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_performance_settings
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_configuration
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_foveation_vulkan
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_foveation_eye_tracked
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_composition_layer_image_layout
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_triangle_mesh
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_passthrough_color_lut
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_passthrough_preferences
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_passthrough_layer_resumed_event
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_OCULUS_external_camera
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_common_events
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_render_model
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_keyboard_tracking
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_virtual_keyboard
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_hand_joints_motion_range
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_hand_tracking_wide_motion_mode
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_hand_tracking_unextrapolated_poses
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_hand_tracking_wide_motion_mode2
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_scene
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_container
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_query
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_storage_batch
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_sharing
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_spatial_entity_user
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_spatial_entity_mesh
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_face_tracking2
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_face_tracking_visemes
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_eye_tracking_social
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_FB_body_tracking
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_body_tracking_full_body
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_body_tracking_fidelity
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_body_tracking_calibration
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_MSFT_hand_interaction
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXTX1_haptic_parametric
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_spatial_entity_discovery
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_spatial_entity_persistence
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_colocation_discovery
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_spatial_entity_sharing
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_spatial_entity_group_sharing
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_boundary_visibility
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_spatial_entity_room_mesh
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_hand_tracking_frequency_hint
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_environment_depth
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_dynamic_object_tracker
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_dynamic_object_keyboard
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_spatial_entity
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXT_spatial_marker_tracking
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_spatial_entity_marker
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_META_environment_raycast
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX2_debug_utils_region_profiling
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX3_debug_utils_region_profiling
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_EXTX2_stationary_reference_space
+[OVRPlugin][INFO] Unavailable OpenXR extension: XR_METAX1_passthrough_camera_data
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : LoaderInstance::CreateInstance chained CreateInstance call failed
+Error [GENERAL | xrCreateInstance | OpenXR-Loader] : xrCreateInstance failed
+[OVRPlugin][ERROR] [XRCMD][failure] [XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED]: xrCreateInstance(&createInfoCorrectOpenXRVersion, instance), arvr\projects\integrations\OVRPlugin\Src\Util\CompositorOpenXR.cpp:19285
+ (arvr\projects\integrations\OVRPlugin\Src\Util/CompositorOpenXR.h:347)[XR] [4288] [16:20:26.832][Error  ] xrCreateInstance: XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [4288] [16:20:26.833][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [4288] [16:20:26.833][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [4288] [16:20:26.833][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [4288] [16:20:26.833][Info   ] ==== OpenXR Init Info ====
+[XR] [4288] [16:20:26.833][Info   ] 
+[XR] [4288] [16:20:26.833][Info   ] Stage 1 Missing Entry Points: (1)
+[XR] [4288] [16:20:26.833][Info   ]   xrInitializeLoaderKHR
+[XR] [4288] [16:20:26.833][Info   ] 
+[XR] [4288] [16:20:26.833][Info   ] ==== OpenXR Runtime Info ====
+[XR] [4288] [16:20:26.833][Info   ] 
+[XR] [4288] [16:20:26.833][Info   ] Available Runtime Extensions: (53)
+[XR] [4288] [16:20:26.833][Info   ]   XR_EXT_hand_tracking: Version=4
+[XR] [4288] [16:20:26.833][Info   ]   XR_HTC_hand_interaction: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_EXT_hand_interaction: Version=2
+[XR] [4288] [16:20:26.833][Info   ]   XR_EXT_eye_gaze_interaction: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_HTC_facial_tracking: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_HTC_eye_tracker: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_HTC_vive_srworks_pass_through: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_MSFT_scene_understanding: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_HTC_path_enumeration: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_HTC_vive_xr_tracker_interaction: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_HTC_body_tracking: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_D3D11_enable: Version=11
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_D3D12_enable: Version=11
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_opengl_enable: Version=12
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_vulkan_enable: Version=10
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_vulkan_enable2: Version=4
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_composition_layer_depth: Version=6
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_win32_convert_performance_counter_time: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_convert_timespec_time: Version=1
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_composition_layer_cube: Version=8
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_composition_layer_cylinder: Version=4
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_composition_layer_equirect: Version=3
+[XR] [4288] [16:20:26.833][Info   ]   XR_KHR_visibility_mask: Version=2
+[XR] [4288] [16:20:26.834][Info   ]   XR_KHR_composition_layer_color_scale_bias: Version=5
+[XR] [4288] [16:20:26.834][Info   ]   XR_KHR_maintenance1: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_win32_appcontainer_compatible: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_debug_utils: Version=5
+[XR] [4288] [16:20:26.834][Info   ]   XR_OCULUS_recenter_event: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_OCULUS_audio_device_guid: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_color_space: Version=3
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_display_refresh_rate: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_META_performance_metrics: Version=2
+[XR] [4288] [16:20:26.834][Info   ]   XR_META_headset_id: Version=2
+[XR] [4288] [16:20:26.834][Info   ]   XR_OCULUS_ovrsession_handle: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_hand_tracking_mesh: Version=3
+[XR] [4288] [16:20:26.834][Info   ]   XR_META_simultaneous_hands_and_controllers: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_hand_tracking_aim: Version=2
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_hand_tracking_capsules: Version=3
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_hand_tracking_data_source: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_META_hand_tracking_microgestures: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_local_floor: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_active_action_set_priority: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_future: Version=2
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_palm_pose: Version=3
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_haptic_parametric: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_haptic_amplitude_envelope: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_haptic_pcm: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_touch_controller_pro: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_META_touch_controller_plus: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_FB_touch_controller_proximity: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_OCULUS_external_camera: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_META_detached_controllers: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_LOGITECH_mx_ink_stylus_interaction: Version=1
+[XR] [4288] [16:20:26.834][Info   ] 
+[XR] [4288] [16:20:26.834][Info   ] Available Layers: (4)
+[XR] [4288] [16:20:26.834][Info   ]   XR_APILAYER_VIVE_hand_tracking: SpecVersion=1.0.0, LayerVersion=2, Description="ViveVR OpenXR Hand Tracking"
+[XR] [4288] [16:20:26.834][Info   ]   XR_APILAYER_VIVE_facial_tracking: SpecVersion=1.0.0, LayerVersion=2, Description="VIVE OpenXR Facial tracking"
+[XR] [4288] [16:20:26.834][Info   ]   XR_APILAYER_VIVE_srworks: SpecVersion=1.0.0, LayerVersion=2, Description="ViveVR OpenXR SRWorks"
+[XR] [4288] [16:20:26.834][Info   ]   XR_APILAYER_VIVE_xr_tracker: SpecVersion=1.0.0, LayerVersion=2, Description="ViveVR OpenXR XrTracker"
+[XR] [4288] [16:20:26.834][Info   ] 
+[XR] [4288] [16:20:26.834][Info   ] Available Runtime Layer Extensions: LayerName="XR_APILAYER_VIVE_hand_tracking": (3)
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_hand_tracking: Version=2
+[XR] [4288] [16:20:26.834][Info   ]   XR_HTC_hand_interaction: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_hand_interaction: Version=1
+[XR] [4288] [16:20:26.834][Info   ] 
+[XR] [4288] [16:20:26.834][Info   ] Available Runtime Layer Extensions: LayerName="XR_APILAYER_VIVE_facial_tracking": (3)
+[XR] [4288] [16:20:26.834][Info   ]   XR_EXT_eye_gaze_interaction: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_HTC_facial_tracking: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_HTC_eye_tracker: Version=1
+[XR] [4288] [16:20:26.834][Info   ] 
+[XR] [4288] [16:20:26.834][Info   ] Available Runtime Layer Extensions: LayerName="XR_APILAYER_VIVE_srworks": (2)
+[XR] [4288] [16:20:26.834][Info   ]   XR_HTC_vive_srworks_pass_through: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_MSFT_scene_understanding: Version=1
+[XR] [4288] [16:20:26.834][Info   ] 
+[XR] [4288] [16:20:26.834][Info   ] Available Runtime Layer Extensions: LayerName="XR_APILAYER_VIVE_xr_tracker": (3)
+[XR] [4288] [16:20:26.834][Info   ]   XR_HTC_path_enumeration: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_HTC_vive_xr_tracker_interaction: Version=1
+[XR] [4288] [16:20:26.834][Info   ]   XR_HTC_body_tracking: Version=1
+[XR] [4288] [16:20:26.834][Info   ] 
+[XR] [4288] [16:20:26.834][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [4288] [16:20:26.834][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED (1x)
+[XR] [4288] [16:20:26.834][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [4288] [16:20:26.834][Info   ] 
+[XR] [4288] [16:20:26.834][Info   ] ==== Last 20 Events ====
+[XR] [4288] [16:20:26.834][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[MetaXRFeature] OnSessionDestroy: 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.MetaXRFeature:OnSessionDestroy (ulong) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OpenXRFeatures/MetaXRFeature.cs:380)
+UnityEngine.XR.OpenXR.Features.OpenXRFeature:ReceiveNativeEvent (UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent,ulong) (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/Features/OpenXRFeature.cs:693)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:ReceiveNativeEvent (UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent,ulong) (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:682)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Deinitialize () (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:475)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:211)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRManagerSettings.cs:190)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRGeneralSettings.cs:175)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRGeneralSettings.cs:148)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OpenXRFeatures/MetaXRFeature.cs Line: 380)
+
+[OVRPlugin][INFO] ovrp_UnityOpenXR_OnSessionDestroy(0)
+[OVRPlugin][ERROR] Compositor invalid
+ (arvr\projects\integrations\OVRPlugin\Src\OVR_Plugin_UnityOpenXR.cpp:304)[MetaXRFeature] OnInstanceDestroy: 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.MetaXRFeature:OnInstanceDestroy (ulong) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OpenXRFeatures/MetaXRFeature.cs:316)
+UnityEngine.XR.OpenXR.Features.OpenXRFeature:ReceiveNativeEvent (UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent,ulong) (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/Features/OpenXRFeature.cs:696)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:ReceiveNativeEvent (UnityEngine.XR.OpenXR.Features.OpenXRFeature/NativeEvent,ulong) (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:682)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Deinitialize () (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:475)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@1.14.3/Runtime/OpenXRLoader.cs:211)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRManagerSettings.cs:190)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRGeneralSettings.cs:175)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRGeneralSettings.cs:148)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OpenXRFeatures/MetaXRFeature.cs Line: 316)
+
+[OVRPlugin][INFO] ovrp_UnityOpenXR_OnInstanceDestroy(0)
+[OVRPlugin][INFO] [CompositorOpenXR::SetExternalXrGetInstanceProcAddr] xrGetInstanceProcAddr set to 0000000000000000. All OpenXR API Entires unbound.
+ArgumentException: Illegal byte sequence encounted in the input.
+Parameter name: string
+  at (wrapper managed-to-native) System.Runtime.InteropServices.Marshal.PtrToStringAnsi(intptr,int)
+  at System.Runtime.InteropServices.Marshal.PtrToStringUTF8 (System.IntPtr ptr, System.Int32 byteLen) [0x00000] in <1071a2cb0cb3433aae80a793c277a048>:0 
+  at Meta.XR.MRUtilityKit.MRUK.OnSharedLibLog (Meta.XR.MRUtilityKit.MRUKNativeFuncs+MrukLogLevel logLevel, System.Char* message, System.UInt32 length) [0x00024] in .\Library\PackageCache\com.meta.xr.mrutilitykit@201.0.0\Core\Scripts\MRUK.cs:676 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Meta.XR.MRUtilityKit.MRUK:OnSharedLibLog(MrukLogLevel, Char*, UInt32) (at .\Library\PackageCache\com.meta.xr.mrutilitykit@201.0.0\Core\Scripts\MRUK.cs:680)
+System.Object:wrapper_native_00007FFBA64113B0(MrukConfig&)
+Meta.XR.MRUtilityKit.MRUK:InitializeSharedLibrary() (at .\Library\PackageCache\com.meta.xr.mrutilitykit@201.0.0\Core\Scripts\MRUK.Shared.cs:83)
+
+(Filename: ./Library/PackageCache/com.meta.xr.mrutilitykit@201.0.0/Core/Scripts/MRUK.cs Line: 680)
+
+OpenXR is not available. MRUK will not be able to use OpenXR features.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Meta.XR.MRUtilityKit.MRUK:InitializeSharedLibrary () (at ./Library/PackageCache/com.meta.xr.mrutilitykit@201.0.0/Core/Scripts/MRUK.Shared.cs:122)
+
+(Filename: ./Library/PackageCache/com.meta.xr.mrutilitykit@201.0.0/Core/Scripts/MRUK.Shared.cs Line: 122)
+
+Applying Acoustic Propagation Settings: [acoustic model = Automatic], [diffraction = True], 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MetaXRAcousticSettings:ApplyAllSettings () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticSettings.cs:102)
+MetaXRAcousticSettings:OnBeforeSceneLoadRuntimeMethod () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticSettings.cs:38)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticSettings.cs Line: 102)
+
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Meta XR Audio Native Interface initialized with Unity plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MetaXRAcousticNativeInterface:FindInterface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticNativeInterface.cs:296)
+MetaXRAcousticNativeInterface:get_Interface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticNativeInterface.cs:248)
+MetaXRAcousticSettings:ApplyAllSettings () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticSettings.cs:105)
+MetaXRAcousticSettings:OnBeforeSceneLoadRuntimeMethod () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticSettings.cs:38)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAcousticNativeInterface.cs Line: 296)
+
+Setting spatial voice limit: 64
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MetaXRAudioSource:OnBeforeSceneLoadRuntimeMethod () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioSource.cs:51)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioSource.cs Line: 51)
+
+<color=#00FFFF><b>[ExperimentManager]</b> 螳滄ｨ捺擅莉ｶ縺悟・繧頑崛繧上ｊ縺ｾ縺励◆: <b>[Condition 1] Method A ﾃ・Dynamic (繝ｪ繧｢繝ｫ繧ｿ繧､繝譖ｴ譁ｰ)</b></color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ExperimentManager:LogCurrentCondition () (at Assets/Scripts/ExperimentManager.cs:166)
+ExperimentManager:OnValidate () (at Assets/Scripts/ExperimentManager.cs:178)
+
+(Filename: Assets/Scripts/ExperimentManager.cs Line: 166)
+
+Found IOVRSkeletonDataProvider reference in [BuildingBlock] Hand Tracking right due to unassigned field.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRSkeleton:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs:520)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs Line: 520)
+
+Found IOVRSkeletonDataProvider reference in [BuildingBlock] Hand Tracking left due to unassigned field.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRSkeleton:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs:520)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/Util/OVRSkeleton.cs Line: 520)
+
+[OVRManager] OnApplicationPause(false)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationPause (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3465)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3465)
+
+[OVRManager] OnApplicationFocus(true)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3473)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3473)
+
+No Meta XR Audio Room found, setting default room
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MetaXRAudioRoomAcousticProperties:CheckSceneHasRoom () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:162)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs Line: 162)
+
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioWwise
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/MetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/libMetaXRAudioFMOD
+Meta XR Audio Native Interface initialized with Unity plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MetaXRAudioNativeInterface:FindInterface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs:107)
+MetaXRAudioNativeInterface:get_Interface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs:81)
+MetaXRAudioRoomAcousticProperties:Update () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:184)
+MetaXRAudioRoomAcousticProperties:CheckSceneHasRoom () (at ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:165)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.audio@85.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs Line: 107)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            25.981 ms
+	Integration:            477.540 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       -0.001 ms
+	Total Operation Time:   503.530 ms
+At GameObject <color=#3366ff><b>PlayerController</b></color>, component <b>FirstPersonLocomotor</b>. The ground could not be found below the locomotor for 10 meters. Velocity will be disabled.A) Add a ground collider under the character controller and/or adjust the CharacterController.LayerMask.
+B) Set _velocityDisabled to disable movement and prevent falling without showing this warning.
+C) Set _maxStartGroundDistance to 0 to disable this behaviour.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Oculus.Interaction.AssertUtils:LogWarning (UnityEngine.Component,string,string,string) (at ./Library/PackageCache/com.meta.xr.sdk.interaction@201.0.0/Runtime/Scripts/Utils/AssertUtils.cs:250)
+Oculus.Interaction.Locomotion.FirstPersonLocomotor:Start () (at ./Library/PackageCache/com.meta.xr.sdk.interaction@201.0.0/Runtime/Scripts/Interaction/Models/Locomotion/FirstPersonLocomotor.cs:444)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.interaction@201.0.0/Runtime/Scripts/Utils/AssertUtils.cs Line: 250)
+
+<color=#00FFFF><b>[ExperimentManager]</b> 螳滄ｨ捺擅莉ｶ縺悟・繧頑崛繧上ｊ縺ｾ縺励◆: <b>[Condition 1] Method A ﾃ・Dynamic (繝ｪ繧｢繝ｫ繧ｿ繧､繝譖ｴ譁ｰ)</b></color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ExperimentManager:LogCurrentCondition () (at Assets/Scripts/ExperimentManager.cs:166)
+ExperimentManager:Start () (at Assets/Scripts/ExperimentManager.cs:99)
+
+(Filename: Assets/Scripts/ExperimentManager.cs Line: 166)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:177)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:394)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3403)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs Line: 177)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:177)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs:394)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3403)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRHaptics.cs Line: 177)
+
+[OVRManager] OnApplicationFocus(false)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3477)
+UnityEditor.PlayModeView:SetFocus (bool)
+UnityEditor.GameView:OnLostFocus ()
+UnityEditor.HostView:OnLostFocus ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3477)
+
+[OVRManager] OnApplicationQuit
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationQuit () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3483)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3483)
+
+[OVRManager] OnDestroy
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRManager:OnDestroy () (at ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs:3450)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@201.0.0/Scripts/OVRManager.cs Line: 3450)
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            21.297 ms
+	Integration:            29.516 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       -0.000 ms
+	Total Operation Time:   50.822 ms
+Unloading 163 unused Assets / (4.1 MB). Loaded Objects now: 21558.
+Memory consumption went from 335.5 MB to 331.4 MB.
+Total: 13.963300 ms (FindLiveObjects: 1.148600 ms CreateObjectMapping: 0.406200 ms MarkObjects: 12.110900 ms  DeleteObjects: 0.296900 ms)
+
+Asset Pipeline Refresh (id=07c23ce79559f3c4c861b62f8f2b6876): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+<RI> Initialized touch support.
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "F4-EET8-G697-BKP7-NBUM-XXXX"
+[Licensing::Module] Serial number assigned to: "15669148836721-UnityPersXXXX"
+Asset Pipeline Refresh (id=0c74f506284224a419f7efbb28c32492): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=edd63595c62637c46a83d115b273064e): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
